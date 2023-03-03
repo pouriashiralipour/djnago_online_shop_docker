@@ -47,6 +47,7 @@ INSTALLED_APPS = [
 
     # third party
     'crispy_forms',
+    'crispy_bootstrap4',
 
 ]
 
@@ -135,6 +136,9 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+# crispy forms
+CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
 # accounts config
 AUTH_USER_MODEL = 'accounts.CustomUser'
