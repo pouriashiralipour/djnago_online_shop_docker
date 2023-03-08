@@ -1,0 +1,16 @@
+{% extends '_base.html' %}
+{% load crispy_forms_filters %}
+{% load crispy_forms_tags %}
+
+{% block page_title %}
+    log Out
+{% endblock %}
+
+{% block content %}
+    <h1>Log Out</h1>
+    <h2>Are you want to log out ?</h2>
+    <form action="" method="post">
+        {% csrf_token %}
+        <input type="submit" value="Are you sure ?">
+    </form>
+{% endblock %}
