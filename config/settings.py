@@ -161,7 +161,7 @@ CRISPY_TEMPLATE_PACK = 'bootstrap4'
 # allauth settings
 ACCOUNT_AUTHENTICATION_METHOD = 'username_email'
 ACCOUNT_SESSION_REMEMBER = True
-
+ACCOUNT_SIGNUP_PASSWORD_ENTER_TWICE = False
 
 # accounts config
 AUTH_USER_MODEL = 'accounts.CustomUser'
