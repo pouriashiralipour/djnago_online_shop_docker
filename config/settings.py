@@ -158,6 +158,11 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 # crispy forms
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
+# allauth settings
+ACCOUNT_AUTHENTICATION_METHOD = 'username_email'
+ACCOUNT_SESSION_REMEMBER = True
+
+
 # accounts config
 AUTH_USER_MODEL = 'accounts.CustomUser'
 LOGIN_REDIRECT_URL = 'home'
